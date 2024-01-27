@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.20)
 
+# Set build type to Debug to include debug information
+set(CMAKE_BUILD_TYPE Debug)
+
 project(MotorDriverApp)
 
 # Find requirements
@@ -16,6 +19,13 @@ include_directories(${LIBMODBUS_INCLUDE_DIRS})
 link_directories(${LIBMODBUS_LIBRARY_DIRS})
 
 include_directories(include)
+
+# Find the yaml-cpp package
+find_package(yaml-cpp REQUIRED)
+
+# Include the yaml-cpp headers
+include_directories(${YAML_CPP_INCLUDE_DIR})
+
 
 # Set C++11
 include(CheckCXXCompilerFlag)
@@ -34,7 +44,7 @@ endif()
 message(STATUS "Configuring MotorDriverApp  publisher/subscriber example...")
 file(GLOB MOTORDRIVERAPP_SOURCES_CXX "src/generated/*.cxx")
 
-add_executable(MotorDriverApp src/main.cpp src/QuerySubscriber.cpp  src/ResponsePublisher.cpp src/StatePublisher.cpp ${MOTORDRIVERAPP_SOURCES_CXX})
-target_link_libraries(MotorDriverApp modbus fastrtps fastcdr)
+add_executable(MotorDriverApp src/DDSNode.cpp   ${MOTORDRIVERAPP_SOURCES_CXX})
+target_link_libraries(MotorDriverApp modbus fastrtps fastcdr ${YAML_CPP_LIBRARIES})
  
 

@@ -69,66 +69,24 @@ include CMakeFiles/MotorDriverApp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MotorDriverApp.dir/flags.make
 
-CMakeFiles/MotorDriverApp.dir/src/main.cpp.o: CMakeFiles/MotorDriverApp.dir/flags.make
-CMakeFiles/MotorDriverApp.dir/src/main.cpp.o: /home/rapit/Desktop/MainApp/MotorDriverApp/src/main.cpp
-CMakeFiles/MotorDriverApp.dir/src/main.cpp.o: CMakeFiles/MotorDriverApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MotorDriverApp.dir/src/main.cpp.o -MF CMakeFiles/MotorDriverApp.dir/src/main.cpp.o.d -o CMakeFiles/MotorDriverApp.dir/src/main.cpp.o -c /home/rapit/Desktop/MainApp/MotorDriverApp/src/main.cpp
+CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.o: CMakeFiles/MotorDriverApp.dir/flags.make
+CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.o: /home/rapit/Desktop/MainApp/MotorDriverApp/src/DDSNode.cpp
+CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.o: CMakeFiles/MotorDriverApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.o -MF CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.o.d -o CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.o -c /home/rapit/Desktop/MainApp/MotorDriverApp/src/DDSNode.cpp
 
-CMakeFiles/MotorDriverApp.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MotorDriverApp.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rapit/Desktop/MainApp/MotorDriverApp/src/main.cpp > CMakeFiles/MotorDriverApp.dir/src/main.cpp.i
+CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rapit/Desktop/MainApp/MotorDriverApp/src/DDSNode.cpp > CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.i
 
-CMakeFiles/MotorDriverApp.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MotorDriverApp.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rapit/Desktop/MainApp/MotorDriverApp/src/main.cpp -o CMakeFiles/MotorDriverApp.dir/src/main.cpp.s
-
-CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.o: CMakeFiles/MotorDriverApp.dir/flags.make
-CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.o: /home/rapit/Desktop/MainApp/MotorDriverApp/src/QuerySubscriber.cpp
-CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.o: CMakeFiles/MotorDriverApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.o -MF CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.o.d -o CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.o -c /home/rapit/Desktop/MainApp/MotorDriverApp/src/QuerySubscriber.cpp
-
-CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rapit/Desktop/MainApp/MotorDriverApp/src/QuerySubscriber.cpp > CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.i
-
-CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rapit/Desktop/MainApp/MotorDriverApp/src/QuerySubscriber.cpp -o CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.s
-
-CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.o: CMakeFiles/MotorDriverApp.dir/flags.make
-CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.o: /home/rapit/Desktop/MainApp/MotorDriverApp/src/ResponsePublisher.cpp
-CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.o: CMakeFiles/MotorDriverApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.o -MF CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.o.d -o CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.o -c /home/rapit/Desktop/MainApp/MotorDriverApp/src/ResponsePublisher.cpp
-
-CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rapit/Desktop/MainApp/MotorDriverApp/src/ResponsePublisher.cpp > CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.i
-
-CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rapit/Desktop/MainApp/MotorDriverApp/src/ResponsePublisher.cpp -o CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.s
-
-CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.o: CMakeFiles/MotorDriverApp.dir/flags.make
-CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.o: /home/rapit/Desktop/MainApp/MotorDriverApp/src/StatePublisher.cpp
-CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.o: CMakeFiles/MotorDriverApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.o -MF CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.o.d -o CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.o -c /home/rapit/Desktop/MainApp/MotorDriverApp/src/StatePublisher.cpp
-
-CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rapit/Desktop/MainApp/MotorDriverApp/src/StatePublisher.cpp > CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.i
-
-CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rapit/Desktop/MainApp/MotorDriverApp/src/StatePublisher.cpp -o CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.s
+CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rapit/Desktop/MainApp/MotorDriverApp/src/DDSNode.cpp -o CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.s
 
 CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.o: CMakeFiles/MotorDriverApp.dir/flags.make
 CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.o: /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/Query_msg.cxx
 CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.o: CMakeFiles/MotorDriverApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.o -MF CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.o.d -o CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.o -c /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/Query_msg.cxx
 
 CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.i: cmake_force
@@ -142,7 +100,7 @@ CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.s: cmake_force
 CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.o: CMakeFiles/MotorDriverApp.dir/flags.make
 CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.o: /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/Query_msgPubSubTypes.cxx
 CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.o: CMakeFiles/MotorDriverApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.o -MF CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.o.d -o CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.o -c /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/Query_msgPubSubTypes.cxx
 
 CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.i: cmake_force
@@ -156,7 +114,7 @@ CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.s: cmake_fo
 CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.o: CMakeFiles/MotorDriverApp.dir/flags.make
 CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.o: /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/Response_msg.cxx
 CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.o: CMakeFiles/MotorDriverApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.o -MF CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.o.d -o CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.o -c /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/Response_msg.cxx
 
 CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.i: cmake_force
@@ -170,7 +128,7 @@ CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.s: cmake_force
 CMakeFiles/MotorDriverApp.dir/src/generated/Response_msgPubSubTypes.cxx.o: CMakeFiles/MotorDriverApp.dir/flags.make
 CMakeFiles/MotorDriverApp.dir/src/generated/Response_msgPubSubTypes.cxx.o: /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/Response_msgPubSubTypes.cxx
 CMakeFiles/MotorDriverApp.dir/src/generated/Response_msgPubSubTypes.cxx.o: CMakeFiles/MotorDriverApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/Response_msgPubSubTypes.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/Response_msgPubSubTypes.cxx.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MotorDriverApp.dir/src/generated/Response_msgPubSubTypes.cxx.o -MF CMakeFiles/MotorDriverApp.dir/src/generated/Response_msgPubSubTypes.cxx.o.d -o CMakeFiles/MotorDriverApp.dir/src/generated/Response_msgPubSubTypes.cxx.o -c /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/Response_msgPubSubTypes.cxx
 
 CMakeFiles/MotorDriverApp.dir/src/generated/Response_msgPubSubTypes.cxx.i: cmake_force
@@ -184,7 +142,7 @@ CMakeFiles/MotorDriverApp.dir/src/generated/Response_msgPubSubTypes.cxx.s: cmake
 CMakeFiles/MotorDriverApp.dir/src/generated/State_msg.cxx.o: CMakeFiles/MotorDriverApp.dir/flags.make
 CMakeFiles/MotorDriverApp.dir/src/generated/State_msg.cxx.o: /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/State_msg.cxx
 CMakeFiles/MotorDriverApp.dir/src/generated/State_msg.cxx.o: CMakeFiles/MotorDriverApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/State_msg.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/State_msg.cxx.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MotorDriverApp.dir/src/generated/State_msg.cxx.o -MF CMakeFiles/MotorDriverApp.dir/src/generated/State_msg.cxx.o.d -o CMakeFiles/MotorDriverApp.dir/src/generated/State_msg.cxx.o -c /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/State_msg.cxx
 
 CMakeFiles/MotorDriverApp.dir/src/generated/State_msg.cxx.i: cmake_force
@@ -198,7 +156,7 @@ CMakeFiles/MotorDriverApp.dir/src/generated/State_msg.cxx.s: cmake_force
 CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes.cxx.o: CMakeFiles/MotorDriverApp.dir/flags.make
 CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes.cxx.o: /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/State_msgPubSubTypes.cxx
 CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes.cxx.o: CMakeFiles/MotorDriverApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes.cxx.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes.cxx.o -MF CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes.cxx.o.d -o CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes.cxx.o -c /home/rapit/Desktop/MainApp/MotorDriverApp/src/generated/State_msgPubSubTypes.cxx
 
 CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes.cxx.i: cmake_force
@@ -211,10 +169,7 @@ CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes.cxx.s: cmake_fo
 
 # Object files for target MotorDriverApp
 MotorDriverApp_OBJECTS = \
-"CMakeFiles/MotorDriverApp.dir/src/main.cpp.o" \
-"CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.o" \
-"CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.o" \
-"CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.o" \
+"CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.o" \
 "CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.o" \
 "CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.o" \
 "CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.o" \
@@ -225,10 +180,7 @@ MotorDriverApp_OBJECTS = \
 # External object files for target MotorDriverApp
 MotorDriverApp_EXTERNAL_OBJECTS =
 
-MotorDriverApp: CMakeFiles/MotorDriverApp.dir/src/main.cpp.o
-MotorDriverApp: CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.o
-MotorDriverApp: CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.o
-MotorDriverApp: CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.o
+MotorDriverApp: CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.o
 MotorDriverApp: CMakeFiles/MotorDriverApp.dir/src/generated/Query_msg.cxx.o
 MotorDriverApp: CMakeFiles/MotorDriverApp.dir/src/generated/Query_msgPubSubTypes.cxx.o
 MotorDriverApp: CMakeFiles/MotorDriverApp.dir/src/generated/Response_msg.cxx.o
@@ -238,12 +190,13 @@ MotorDriverApp: CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes
 MotorDriverApp: CMakeFiles/MotorDriverApp.dir/build.make
 MotorDriverApp: /home/rapit/Fast-DDS/install/fastrtps/lib/libfastrtps.so.2.13.1
 MotorDriverApp: /home/rapit/Fast-DDS/install/fastcdr/lib/libfastcdr.so.2.1.3
+MotorDriverApp: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 MotorDriverApp: /opt/ros/humble/lib/libfoonathan_memory-0.7.1.a
 MotorDriverApp: /usr/local/lib/libtinyxml2.so.9.0.0
 MotorDriverApp: /usr/lib/x86_64-linux-gnu/libssl.so
 MotorDriverApp: /usr/lib/x86_64-linux-gnu/libcrypto.so
 MotorDriverApp: CMakeFiles/MotorDriverApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable MotorDriverApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rapit/Desktop/MainApp/MotorDriverApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable MotorDriverApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MotorDriverApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

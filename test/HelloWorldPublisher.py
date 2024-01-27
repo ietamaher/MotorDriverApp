@@ -48,7 +48,7 @@ class Writer:
 
         self.topic_qos = fastdds.TopicQos()
         self.participant.get_default_topic_qos(self.topic_qos)
-        self.topic = self.participant.create_topic("AZD_query", self.topic_data_type.getName(), self.topic_qos)
+        self.topic = self.participant.create_topic("QueryTopic", self.topic_data_type.getName(), self.topic_qos)
 
         self.publisher_qos = fastdds.PublisherQos()
         self.participant.get_default_publisher_qos(self.publisher_qos)
@@ -63,7 +63,7 @@ class Writer:
     def write(self):
         query = Query_msg.Query_msg()
         query.slave_id (3)
-        query.func_code(1)  # Assuming 1 is the code for write
+        query.func_code(2)  # Assuming 1 is the code for write
         query.write_addr(23)  # Example write address
         query.write_num(2)  # Number of registers to write
         query.read_addr(5)
@@ -89,8 +89,8 @@ class Writer:
 
     def run(self):
         self.wait_discovery()
-        for x in range(10) :
-            time.sleep(1)
+        for x in range(100000) :
+            time.sleep(0.01)
             self.write()
         self.delete()
 

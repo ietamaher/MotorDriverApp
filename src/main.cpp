@@ -47,6 +47,8 @@ int main() {
     return 0;
 }
 
+
+
 // swig -c++ -python Query_msg.i
 //g++ -shared -fPIC Query_msg_wrap.cxx Query_msg.cxx  Query_msgPubSubTypes.cxx -o _Query_msg.so -I/usr/include/python3.10 -lpython3.10 -lfastcdr  -lfastrtps
 //ldd _Query_msg.so

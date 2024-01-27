@@ -129,77 +129,29 @@ MotorDriverApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/build
 .PHONY : MotorDriverApp/fast
 
-src/QuerySubscriber.o: src/QuerySubscriber.cpp.o
-.PHONY : src/QuerySubscriber.o
+src/DDSNode.o: src/DDSNode.cpp.o
+.PHONY : src/DDSNode.o
 
 # target to build an object file
-src/QuerySubscriber.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.o
-.PHONY : src/QuerySubscriber.cpp.o
+src/DDSNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.o
+.PHONY : src/DDSNode.cpp.o
 
-src/QuerySubscriber.i: src/QuerySubscriber.cpp.i
-.PHONY : src/QuerySubscriber.i
-
-# target to preprocess a source file
-src/QuerySubscriber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.i
-.PHONY : src/QuerySubscriber.cpp.i
-
-src/QuerySubscriber.s: src/QuerySubscriber.cpp.s
-.PHONY : src/QuerySubscriber.s
-
-# target to generate assembly for a file
-src/QuerySubscriber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/QuerySubscriber.cpp.s
-.PHONY : src/QuerySubscriber.cpp.s
-
-src/ResponsePublisher.o: src/ResponsePublisher.cpp.o
-.PHONY : src/ResponsePublisher.o
-
-# target to build an object file
-src/ResponsePublisher.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.o
-.PHONY : src/ResponsePublisher.cpp.o
-
-src/ResponsePublisher.i: src/ResponsePublisher.cpp.i
-.PHONY : src/ResponsePublisher.i
+src/DDSNode.i: src/DDSNode.cpp.i
+.PHONY : src/DDSNode.i
 
 # target to preprocess a source file
-src/ResponsePublisher.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.i
-.PHONY : src/ResponsePublisher.cpp.i
+src/DDSNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.i
+.PHONY : src/DDSNode.cpp.i
 
-src/ResponsePublisher.s: src/ResponsePublisher.cpp.s
-.PHONY : src/ResponsePublisher.s
-
-# target to generate assembly for a file
-src/ResponsePublisher.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/ResponsePublisher.cpp.s
-.PHONY : src/ResponsePublisher.cpp.s
-
-src/StatePublisher.o: src/StatePublisher.cpp.o
-.PHONY : src/StatePublisher.o
-
-# target to build an object file
-src/StatePublisher.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.o
-.PHONY : src/StatePublisher.cpp.o
-
-src/StatePublisher.i: src/StatePublisher.cpp.i
-.PHONY : src/StatePublisher.i
-
-# target to preprocess a source file
-src/StatePublisher.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.i
-.PHONY : src/StatePublisher.cpp.i
-
-src/StatePublisher.s: src/StatePublisher.cpp.s
-.PHONY : src/StatePublisher.s
+src/DDSNode.s: src/DDSNode.cpp.s
+.PHONY : src/DDSNode.s
 
 # target to generate assembly for a file
-src/StatePublisher.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/StatePublisher.cpp.s
-.PHONY : src/StatePublisher.cpp.s
+src/DDSNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/DDSNode.cpp.s
+.PHONY : src/DDSNode.cpp.s
 
 src/generated/Query_msg.o: src/generated/Query_msg.cxx.o
 .PHONY : src/generated/Query_msg.o
@@ -345,30 +297,6 @@ src/generated/State_msgPubSubTypes.cxx.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/generated/State_msgPubSubTypes.cxx.s
 .PHONY : src/generated/State_msgPubSubTypes.cxx.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorDriverApp.dir/build.make CMakeFiles/MotorDriverApp.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -378,15 +306,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MotorDriverApp"
-	@echo "... src/QuerySubscriber.o"
-	@echo "... src/QuerySubscriber.i"
-	@echo "... src/QuerySubscriber.s"
-	@echo "... src/ResponsePublisher.o"
-	@echo "... src/ResponsePublisher.i"
-	@echo "... src/ResponsePublisher.s"
-	@echo "... src/StatePublisher.o"
-	@echo "... src/StatePublisher.i"
-	@echo "... src/StatePublisher.s"
+	@echo "... src/DDSNode.o"
+	@echo "... src/DDSNode.i"
+	@echo "... src/DDSNode.s"
 	@echo "... src/generated/Query_msg.o"
 	@echo "... src/generated/Query_msg.i"
 	@echo "... src/generated/Query_msg.s"
@@ -405,9 +327,6 @@ help:
 	@echo "... src/generated/State_msgPubSubTypes.o"
 	@echo "... src/generated/State_msgPubSubTypes.i"
 	@echo "... src/generated/State_msgPubSubTypes.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 .PHONY : help
 
 
