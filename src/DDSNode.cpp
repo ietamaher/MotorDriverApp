@@ -63,7 +63,7 @@ private:
             Query_msg queryMsg;
             SampleInfo info;
             if (reader->take_next_sample(&queryMsg, &info) == ReturnCode_t::RETCODE_OK && info.valid_data) {
-                std::cout << "Received Query: Slave ID: " << (int)queryMsg.slave_id() << ", Func Code: " << (int)queryMsg.func_code()  << ", Write Add : " << (int)queryMsg.write_addr() << std::endl;
+                //std::cout << "Received Query: Slave ID: " << (int)queryMsg.slave_id() << ", Func Code: " << (int)queryMsg.func_code()  << ", Write Add : " << (int)queryMsg.write_addr() << std::endl;
 
                 ddsNode.handleQuery(queryMsg);
             }
@@ -163,7 +163,7 @@ public:
     }
 
     void handleQuery(const Query_msg& queryMsg) {
-        std::cout << "Handling Query" << std::endl;
+        //std::cout << "Handling Query" << std::endl;
         if (queryMsg.func_code() == 2) {
             // Handle Modbus read
             modbus_read_function(queryMsg.slave_id(), queryMsg.read_addr(), queryMsg.read_num());
@@ -188,7 +188,7 @@ public:
         return false; // Placeholder return
     }
     
-    void modbus_write_function(int8_t slave_id, int32_t write_addr, int8_t write_num, const std::array<unsigned int, 64>& data){
+    void modbus_write_function(int8_t slave_id, int32_t write_addr, int8_t write_num, const std::array<unsigned int, 64> data){
 
         modbus_set_slave(modbusContext, slave_id);
  
@@ -199,7 +199,8 @@ public:
             modbus_data[j] = (data[i] >> 16) & 0xFFFF;   // High word
             modbus_data[j + 1] = data[i] & 0xFFFF;       // Low word
         }
-
+        std::cout << modbus_data[0] <<   modbus_data[1] << std::endl;
+       
         // Write data to Modbus
         int rc = modbus_write_registers(modbusContext, write_addr, write_num * 2, modbus_data);
 

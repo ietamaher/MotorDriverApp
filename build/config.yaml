@@ -1,5 +1,5 @@
 modbus:
-  device: "/dev/pts/9"
+  device: "/dev/ttyUSB1"
   baud_rate: 115200
   parity: 'N'
   data_bits: 8

@@ -1,4 +1,4 @@
-# Install script for directory: /home/rapit/Desktop/MainApp/MotorDriverApp
+# Install script for directory: /home/jetson/Desktop/big_apps/MotorDriverApp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rapit/Desktop/MainApp/MotorDriverApp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jetson/Desktop/big_apps/MotorDriverApp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
